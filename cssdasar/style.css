@@ -1,0 +1,31 @@
+
+h1 {
+    color:red;
+        font-size: 20px;
+}
+
+h2 {
+    color:blue;
+        font-size: 15px;
+
+}
+
+/* ini menggunakan ID */
+#judul {
+    color:aqua;
+    font-size:30px;
+}
+
+/*ini adalah menggunakan Class*/
+
+.red {
+    color:black;
+    font-size: 20px;
+}
+.upper {
+    text-transform: uppercase;
+
+}
+
+
+
