@@ -27,5 +27,20 @@ h2 {
 
 }
 
+/*ini menggunakan chlid selector*/
+div > p {
+    color:red;
+}
+
+/*Adjacent sibling*/
+div + p {
+    color:green;
+}
+/*General sibling*/
+
+div ~ p {
+    color:purple
+}
+
 
 
