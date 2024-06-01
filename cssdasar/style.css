@@ -42,5 +42,11 @@ div ~ p {
     color:purple
 }
 
+/* Css Selector Atribut*/
+
+a[target="_blank"]{
+    color:red;
+}
+
 
 
