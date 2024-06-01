@@ -1,0 +1,40 @@
+/*Universal selector */
+ *{
+   font-family : 'Arial'; 
+     }
+    
+     h1 {
+         color: chocolate;
+     }
+     h2 {
+         color:darkblue;
+     }
+     /*Class Selemtor*/
+     li.sarapan {
+         color:darkgoldenrod;
+         
+     }
+     li.sarapan2 {
+         color:red;
+     }
+     /*id selector*/
+     #maksi {
+         color:blue;
+     }
+
+     /*Child Selector*/
+     p>b {
+         color:darkorange;
+     } 
+     li>b {
+         color:darkslateblue;
+     }
+     /*Adjecent selector*/
+     h2+p {
+         color:deeppink;
+     }
+     
+   /*General sibling selector*/ 
+     h2~p {
+         font-family: 'Times New  Roman';
+     } 
