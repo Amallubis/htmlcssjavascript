@@ -1,0 +1,31 @@
+* {
+     font-family : 'Tahoma';
+     }
+     body {
+         background-color:azure;
+     }
+     h1{
+         font-family : 'Times';
+         background-color:#efefef;
+         text-align: center;
+         padding:10px;
+     }
+
+     h2 {
+         background-color: black;
+         color: beige;
+         padding: 10px;
+     }
+
+     h3{
+         font-family : 'Arial';
+         font-size : 16px;
+     }
+     h3 i {
+         color:coral;
+     }
+     h3 {
+         background-color: rgba(100, 25,0,0.2);
+         padding: 10px;
+     }
+     
