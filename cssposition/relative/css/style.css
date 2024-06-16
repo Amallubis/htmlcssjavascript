@@ -1,0 +1,15 @@
+*{
+    font-family: "Arial"
+    
+}
+p {
+    position:relative;
+    top:100px;
+    background-color:aqua;
+}
+.posisi-relative {
+    position: relative;
+    top:50px;
+    left:50px;
+    background-color:coral;
+}
