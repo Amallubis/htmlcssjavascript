@@ -1,0 +1,48 @@
+
+* {
+     font-family:"serif";
+     box-sizing:border-box;
+     }
+
+     .header {
+         background-color:coral;
+         position:fixed;
+         top:0px;
+         left:0px;
+         width: 100%;
+         height:100px;
+         z-index:1;
+         padding:10px;
+
+     }
+     .header h1 {
+         margin-left:50px;
+     }
+
+     .container {
+         position:relative;
+         top:100px;
+         max-width:800px;
+         margin:0px auto 0px auto;
+
+     }
+     .content-kolom {
+         float:left;
+         width:500px;
+     }
+     
+     .menu {
+         background-color:aqua;
+         top:170px;
+         position:sticky;
+         width:200px;
+         margin-left:10px;
+         float:left;
+         padding:10px;
+
+         
+     }
+     .menu ul {
+         list-style-type:none
+     }
+    
