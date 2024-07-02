@@ -1,0 +1,51 @@
+*{
+    font-family:"serif";
+
+}
+
+:root{
+    --bg-primary:coral;
+    --bg-secondary:aqua;
+    --icon-primary:red;
+    --icon-scondary:yellow;
+}
+.container {
+    width:100%;
+    heigth:100vh;
+    background-color:var(--bg-primary)
+}
+.row{
+    display:flex;
+    heigth:auto;
+    background-color:var(--bg-secondary);
+    justify-content:center;
+
+}
+.row.card {
+    justify-content:center;
+    heigth:200px;
+    width:300px;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.card h1 {
+    cursor:copy;
+    
+
+}
+
+.btn {
+    font-size:24px;
+    padding:32px;
+    margin:8px;
+    border:none;
+    cursor:pointer;
+    
+}
+.btn:hover{
+    background-color:red;
+    color:white;
+    shodow:2px;
+    transform: rotate(10deg)
+}
